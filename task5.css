@@ -1,0 +1,68 @@
+
+.shape_1{
+    background-color: rgb(206, 192, 192);
+    border: red solid 5px;
+    padding: 50px ;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 5px;
+    margin: 10px;
+    display: inline-block;
+}
+.shape_2{
+    padding: 50px;
+    background-color: rgb(206, 192, 192);
+    border-bottom: 5px rgb(59, 59, 161) solid;
+    border-top: 5px rgb(59, 59, 161) solid;
+    border-right:5px green solid ;
+    border-left: 5px green solid;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 5px;
+    margin: 10px;
+    display: inline-block;
+}
+.shape_3{
+    background-color: rgb(206, 192, 192);
+    padding: 50px;
+    border-bottom: 5px rgb(59, 59, 161) dashed;
+    border-top: 5px rgb(143, 24, 24) dashed;
+    border-right:5px green dashed ;
+    border-left: 5px yellow dashed;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 5px;
+    margin: 10px;
+    display: inline-block;
+
+}
+.element_1 {
+  
+
+}
+.element-1 {
+width: 400px;
+    background-color: rgb(197, 204, 200);
+    border-left: 5px rgb(205, 31, 91) solid;
+    padding: 20px;
+    margin:auto ;
+    /* align-content: center; */
+    /* border-left-width: 10px; */
+  
+}
+.element-2{
+    padding: 20px;
+    margin:auto ;
+    visibility: hidden;
+    /* align-content: center; */
+}
+.element-3{
+
+    background-color: rgb(197, 204, 200);
+    width: 400px;
+     margin:auto;
+    padding: 20px;
+    border-left: 5px rgb(40, 140, 115) solid;
+    /* align-content: center; */
+    border-spacing: 5px 50px;
+}
