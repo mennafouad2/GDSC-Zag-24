@@ -1,0 +1,98 @@
+.task_1,
+.p1,
+.p2,
+.p3,
+.p4
+{
+    background-color: rgb(163, 59, 59);
+    border:1px solid rgb(238, 175, 175) ;
+    min-width: 40px;
+    /* margin: 20px auto;  */
+    max-width:400px ;
+    padding: 10px;
+    color: #f4efef;
+    text-transform: capitalize;
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+   font-weight:normal;
+}
+
+
+.p1{
+ width: fit-content;;
+max-height: 400px;
+}
+.p2{
+width: 200px;
+}
+.p3{
+height: 20px;
+}
+.p4{
+    max-width:400px ;
+    max-height: 50px;
+    overflow: hidden;
+}
+.T1{
+    text-transform:uppercase;
+     padding: 10px; 
+    text-align: center;
+    font-size:x-large ;
+    line-height: 30px;
+}
+.T2{
+    text-transform:capitalize;
+     padding: 10px; 
+    text-align: center;
+    font-size:x-large
+}
+.T3{
+    text-transform:lowercase;
+     padding: 10px; 
+    text-align: center;
+    font-size:x-large
+}
+.org{
+background-color: black;
+color: #f0e4e4;
+width: 400px;
+border-left: solid 5px rgb(29, 227, 46) ;
+padding: 20px;
+margin: 30px 50px;
+
+}
+.last_1,
+.last_2,
+.last_3{
+    background-color: #f0e4e4;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 400px;
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+   font-weight:normal;
+   line-height: 1.5;
+}
+
+.last_1{
+
+max-width: 400px;
+height: auto;
+
+
+}
+.last_2{
+    height: 30px;
+    word-break: keep-all;
+    overflow: hidden;
+   
+}
+.last_3{
+    height: 20px;
+    word-break: normal;
+    white-space: nowrap;
+     overflow: hidden; 
+    text-overflow: ellipsis;
+  
+}
+
