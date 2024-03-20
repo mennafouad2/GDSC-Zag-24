@@ -1,0 +1,108 @@
+table{
+
+    width: 70%;
+    margin: 50px auto;
+    text-align: center; 
+    border-spacing: 1px;
+    background-color:rgba(249, 244, 244, 0.912);
+}
+table, th, td{
+    padding: 5px;
+    border: 2px rgb(255, 255, 255) solid;
+}
+
+.head{
+background-color:rgb(16, 15, 15) ;
+color: aliceblue;
+
+}
+.view{
+    background-color: rgb(89, 189, 229);
+}
+.Delete{
+    background-color:rgb(198, 57, 121)
+}
+.list_1,
+.list_2,
+.list_3
+
+{
+    
+    
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: rgb(212, 209, 209);
+    width: 40%; 
+    outline: 1px solid rgb(196, 193, 193); 
+    padding: 1px;
+    height: auto;
+}
+ol li {
+    background: #f5ecec;
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  list-style-position: outside;
+}
+ul li{
+    background: #f5ecec;
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  list-style-position:inside;
+}
+.boxes{
+background-color: rgb(235, 235, 235);
+width: 60%;
+margin: auto;
+text-align: center;
+padding: 12px;
+font-weight: 300;
+
+.full{
+max-width: 100%;
+background-color:rgb(151, 149, 149) ;
+border-radius: 3px;
+margin: 5px;
+padding: 5px;
+}
+
+.third{
+    border-radius: 3px;
+    display: flex;
+
+    div{
+        width:calc(96%/3);
+            margin: 5px;
+            background-color: rgba(0, 0, 0, 0.315);
+            padding: 5px;
+            border-radius: 3px;
+
+
+    }
+}
+.half {
+    border-radius: 3px;
+    display: flex;
+
+    div {
+        width: calc(97%/2);
+        margin: 5px;
+        background-color: rgba(0, 0, 0, 0.315);
+        padding: 5px;
+        border-radius: 3px;
+    }
+}
+
+.quartar {
+    border-radius: 3px;
+    display: flex;
+
+    div {
+        width: calc(95%/4);
+        margin: 5px;
+        background-color: rgba(0, 0, 0, 0.315);
+        padding: 5px;
+        border-radius: 3px;
+    }
+}
+}
+
