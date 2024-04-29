@@ -1,0 +1,21 @@
+.items{
+    height: auto;
+    width: fit-content;
+     margin-top: 20px;  
+        
+}
+
+ .item_1,
+.item_2,
+.item_3,
+.item_4,
+.item_5{
+   
+    margin-top: 30px;
+    
+}  
+.img{
+height: 500px;
+width: 90%;
+
+}
