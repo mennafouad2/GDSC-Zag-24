@@ -1,0 +1,377 @@
+*{
+margin: 0;
+padding: 0;
+font-family: "Poppins", sans-serif;
+}
+.navbar{
+width: 100%;
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: black;
+
+}
+.navbar .logo h2{
+margin: 0 30px;
+color: #fff;
+font-size: 38px;
+}
+.navbar .navlist{
+display: flex;
+align-items: center;
+margin: 0 30px;
+
+}
+.navbar .navlist ul{
+display: flex;
+align-items: center;
+list-style: none;
+
+}
+.navbar .navlist ul li a{
+text-decoration: none;
+margin: 0 10px;
+padding: 0 5px;
+font-size: 18px;
+color: #fff;
+
+}
+.navbar .navlist ul li a:hover{
+color: #ff5601;
+transition: 0.4s ease;
+
+}
+.main_header{
+
+width: 100%;
+min-height: 85vh;
+background-image: url(images/banner-bg.png);
+ background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 40px;
+}
+.content{
+width: 1200px;
+margin: 120px auto;
+text-align: justify;
+
+}
+.content span{
+font-weight: 600px;
+font-size: 60px;
+
+}
+.content h1{
+font-size: 80px;
+color: #fff;
+margin-left: 0;
+}
+.content p{
+
+width: 650px;
+color:#fff ;
+
+}
+.btn{
+margin-top: 40px;
+padding: 12px 26px;
+font-size: 20px;
+cursor: pointer;
+background-color: black;
+color: #fff;
+
+}
+.btn:hover{
+background-color: #ff5601;
+transition: 0.4s ease;
+}
+/* start of about section */
+
+.about_us {
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+    display: flex;
+  }
+  .about_us .detailes{
+    width: 1200px;
+    margin: 120px auto;
+    text-align: justify;
+    
+  }
+  
+  .about_us .detailes h1 {
+    font-size: 80px;
+    font-weight: 800px;
+    margin-bottom: 20px;
+    color: #ff5601;
+    
+  }
+  
+  
+  .about_us .detailes p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    width: 650px;
+
+  }
+  
+ .ab_imgab_img img {
+    max-width: 500px;
+    height: auto;
+     margin-bottom: 20px; 
+    align-items: center;
+  }
+  
+  .btn_2{
+    margin-top: 40px;
+    padding: 12px 26px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+}
+.btn_2:hover{
+  background-color: #ff5601;
+transition: 0.4s ease;
+}
+  
+  @media (max-width: 768px) {
+    .ab_imgab_img  img {
+      max-width: 100%;
+    }
+  }
+  
+   .gallery , .services{
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+}
+.gallery_heading{
+    font-size: 80px;
+    font-weight: 800px;
+    margin-bottom: 20px;
+    color: #ff5601;
+
+
+}
+.gall_detailes{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+   
+
+
+}
+.gallery__imgs{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.gallery-img{
+    width: 23rem;
+    height: 23rem;
+    transition: opacity .3s;
+}
+.gallery__item{
+    position: relative;
+}
+.search--icon{
+    position: absolute;
+    right: 35%;
+    top: 35%;
+    width: 5rem;
+    opacity: 0;
+    transition: opacity .3s;
+    fill: black;
+}
+
+.gallery__item:hover{
+    .search--icon{
+        opacity: 5;
+    }
+    .gallery-img{
+        opacity: .5;
+    }
+}
+
+
+.services{
+    color: white;
+    background-image: url(./images/services-bg.png);
+    background-size: cover;
+}
+.services__items{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.services__item{
+    justify-items: center;
+    gap: 1rem;
+    background-color:rgb(255, 72, 0) ;
+    padding: 3rem 2rem;
+    align-items: center;
+    transition: all .3s ease;
+}
+.services h2{
+    color: white;
+}
+.services button{
+    display: none;
+    transition: all .3s ease;
+}
+
+.services__item:hover{
+    button{
+        display: inline-block;
+        margin-top: 1rem;
+        transition: all 1s ease;
+        
+    }
+    background-color: white;
+    color: black;
+    padding: 5rem 2rem;
+} 
+.btn_3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 12px 26px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+}
+.btn_3:hover{
+  background-color: #ff5601;
+transition: 0.4s ease;
+
+}
+.btn_4{
+   
+    padding: 12px 26px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+}
+.btn_4:hover{
+  background-color: #ff5601;
+transition: 0.4s ease;
+}
+.testimonial{
+    flex-direction:column;
+    align-items: start;
+    justify-content: center;
+   
+}
+.testimonial span{
+    display: inline-block;
+    color: rgb(255, 72, 0);
+    font-size: 18px;
+    font-weight: 800;
+    transform: translate(5rem ,-0.7rem);
+}
+.testimonial img{
+    transform: translate(8rem,-0.6rem);
+}
+.testimonial div{
+    border-left: 3px solid ;
+    border-right: 3px solid;
+    padding: 0 3rem;
+    position: relative;
+    margin-top: 3rem;
+}
+.testimonial div::before{
+    content: "";
+    width: 5rem ;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.testimonial div::after{
+    content: "";
+    width: 5rem ;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.btn_5{
+   
+    padding: 12px 26px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+}
+.btn_5:hover{
+  background-color: #ff5601;
+transition: 0.4s ease;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+}
+.form{
+    display: flex;
+    padding: .5rem;
+  
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-image: url(./images/img-9.png);
+    background-size: cover;
+    padding: 2rem 5rem ;
+    width: 50%;
+}
+form input{
+    padding: 1.5rem 2rem;
+    border-radius: 3rem;
+}
+textarea{
+    padding: 3.5rem;
+    border-radius: 3rem;
+}
+form button{
+    background-color: rgb(255, 72, 0);
+    border-radius: 3rem;
+    margin: .55rem auto;
+}
+.google-map{
+    width: 50%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(41, 38, 38);
+    color: white;
+    padding: 5rem 7rem;
+    flex: 1;
+}
+footer h2{
+    color: white;
+    margin-bottom: 2rem;
+}
+footer img{
+    width: .7rem;
+    margin-right: .5rem;
+}
+
+.copyright{
+    margin: 1rem auto;
+}
